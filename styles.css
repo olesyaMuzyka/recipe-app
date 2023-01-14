@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("recipe-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  background-color: rgb(243, 214, 186);
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  margin: 100px 100px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+.search-container input {
+  font-size: 16px;
+  border-radius: 7px;
+  border: none;
+  padding: 8px 20px;
+}
+.search-container button {
+  font-size: 16px;
+  background-color: rgb(228, 136, 24);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  padding: 8px 11px;
+}
+header {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  font-family: "Manrope", sans-serif;
+  color: rgb(154, 52, 12);
+}
+.app-footer {
+  text-align: center;
+  margin: 100px 0;
+  color: rgb(30, 9, 115);
+}
+.app-footer a {
+  color: rgb(154, 52, 12);
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin: 20px 6px;
+  }
+}
